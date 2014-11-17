@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -11057,7 +11057,7 @@ Source: www.kingbright.com</description>
 <part name="C10" library="rcl" deviceset="CPOL-EU" device="A/3216-18R" value="10u"/>
 <part name="U$28" library="we_supply" deviceset="GND" device=""/>
 <part name="LED1" library="led" deviceset="LED" device="SML0603"/>
-<part name="R13" library="we_passive" deviceset="R-EU" device="_0603"/>
+<part name="R13" library="we_passive" deviceset="R-EU" device="_0603" value="220R"/>
 <part name="TP8" library="we_conn" deviceset="TESTPAD" device=""/>
 <part name="R14" library="we_passive" deviceset="R-EU" device="_0603" value="DNP"/>
 <part name="U$29" library="we_supply" deviceset="GND" device=""/>
@@ -11938,12 +11938,8 @@ Source: www.kingbright.com</description>
 <approved hash="103,1,160.02,142.24,U1,RSVD,N$16,,,"/>
 <approved hash="104,1,104.14,17.78,U3,GND1,GND,,,"/>
 <approved hash="104,1,104.14,60.96,U2,GND1,GND,,,"/>
-<approved hash="208,1,35.56,99.06,N$12,,,,,"/>
 <approved hash="106,1,35.56,99.06,N$12,,,,,"/>
 <approved hash="108,1,127,78.74,VUSB,,,,,"/>
-<approved hash="115,1,131.976,90.066,FRAME1,,,,,"/>
-<approved hash="115,1,218.44,53.1453,SV1,,,,,"/>
-<approved hash="115,1,170.502,67.31,LED1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
